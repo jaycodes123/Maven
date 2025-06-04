@@ -8,7 +8,7 @@ trigger:
 - main  # or your branch name
 
 pool:
-  name: Default  # Make sure this matches the agent pool where your self-hosted agent is registered
+  name: Azure pipelines  # Make sure this matches the agent pool where your self-hosted agent is registered
 
 variables:
   MAVEN_HOME: 'C:\Users\ASUS\apache-maven-4.0.0-rc-3\bin'
