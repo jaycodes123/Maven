@@ -17,11 +17,8 @@ steps:
       mavenPomFile: 'pom.xml'
       publishJUnitResults: true
       testResultsFiles: '**/surefire-reports/TEST-*.xml'
-      javaHomeOption: 'Path'
-      jdkDirectory: 'C:\Program Files\Java\jdk-23'
-      mavenVersionOption: 'Path'
-      mavenDirectory: 'C:\Users\ASUS\apache-maven-4.0.0-rc-3\bin'
-      mavenSetM2Home: false
+      javaHomeOption: 'JDKVersion'
+      mavenVersionOption: 'Default'
       mavenAuthenticateFeed: false
       effectivePomSkip: false
       sonarQubeRunAnalysis: false
